@@ -13,7 +13,8 @@ A very simple SAMBA file server in a container !
 
 # Shares
 
-Shares follow the default samba configuration standard:
+Shares follow the default samba configuration standard and should be set in the
+`SHARES_CONF` variable:
 
 ```
 [Temp]
